@@ -51,12 +51,12 @@
             label3 = new Label();
             buttonMostrarFornecedores = new Button();
             BtnAtualizarForne = new Button();
+            label9 = new Label();
             Box_Fornecedores = new DataGridView();
             panel2 = new Panel();
             textBoxTelFornecedor = new TextBox();
             buttonDeletarFornecedor = new Button();
             textBoxEndFornecedor = new TextBox();
-            label9 = new Label();
             textBoxCNPJ = new TextBox();
             buttonAdicionarFornecedor = new Button();
             textBoxNomeFornecedor = new TextBox();
@@ -65,10 +65,11 @@
             label13 = new Label();
             label14 = new Label();
             tabPageCadastroClientes = new TabPage();
+            label12 = new Label();
             dataGridViewClientes = new DataGridView();
+            label15 = new Label();
             panel3 = new Panel();
             textBoxTelCliente = new TextBox();
-            label15 = new Label();
             textBoxEndCliente = new TextBox();
             textBoxCPF = new TextBox();
             button2 = new Button();
@@ -90,7 +91,6 @@
             textBox4 = new TextBox();
             label24 = new Label();
             label22 = new Label();
-            label12 = new Label();
             tabControl1.SuspendLayout();
             Tab_CadastroProdutos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewProdutos).BeginInit();
@@ -138,7 +138,7 @@
             // 
             dataGridViewProdutos.AllowUserToAddRows = false;
             dataGridViewProdutos.AllowUserToDeleteRows = false;
-            dataGridViewProdutos.BackgroundColor = SystemColors.ActiveBorder;
+            dataGridViewProdutos.BackgroundColor = SystemColors.ControlLight;
             dataGridViewProdutos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewProdutos.Location = new Point(484, 46);
             dataGridViewProdutos.Margin = new Padding(3, 2, 3, 2);
@@ -374,6 +374,16 @@
             BtnAtualizarForne.Text = "Atualizar";
             BtnAtualizarForne.UseVisualStyleBackColor = false;
             // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Comic Sans MS", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label9.Location = new Point(78, 11);
+            label9.Name = "label9";
+            label9.Size = new Size(278, 27);
+            label9.TabIndex = 4;
+            label9.Text = "CADASTRE O FORNECEDOR";
+            // 
             // Box_Fornecedores
             // 
             Box_Fornecedores.BackgroundColor = SystemColors.ControlLight;
@@ -436,16 +446,6 @@
             textBoxEndFornecedor.Name = "textBoxEndFornecedor";
             textBoxEndFornecedor.Size = new Size(348, 23);
             textBoxEndFornecedor.TabIndex = 16;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Comic Sans MS", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(78, 11);
-            label9.Name = "label9";
-            label9.Size = new Size(278, 27);
-            label9.TabIndex = 4;
-            label9.Text = "CADASTRE O FORNECEDOR";
             // 
             // textBoxCNPJ
             // 
@@ -532,6 +532,16 @@
             tabPageCadastroClientes.Text = "Cadastro de Clientes";
             tabPageCadastroClientes.UseVisualStyleBackColor = true;
             // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Comic Sans MS", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label12.Location = new Point(551, 11);
+            label12.Name = "label12";
+            label12.Size = new Size(211, 27);
+            label12.TabIndex = 14;
+            label12.Text = "LISTA DE CLIENTES";
+            // 
             // dataGridViewClientes
             // 
             dataGridViewClientes.BackgroundColor = SystemColors.ControlLight;
@@ -543,6 +553,16 @@
             dataGridViewClientes.RowTemplate.Height = 29;
             dataGridViewClientes.Size = new Size(407, 314);
             dataGridViewClientes.TabIndex = 13;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Comic Sans MS", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label15.Location = new Point(117, 11);
+            label15.Name = "label15";
+            label15.Size = new Size(231, 27);
+            label15.TabIndex = 9;
+            label15.Text = "CADASTRE O CLIENTE";
             // 
             // panel3
             // 
@@ -573,16 +593,6 @@
             textBoxTelCliente.Size = new Size(132, 23);
             textBoxTelCliente.TabIndex = 17;
             textBoxTelCliente.TextChanged += textBoxTelCliente_TextChanged;
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Font = new Font("Comic Sans MS", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label15.Location = new Point(117, 11);
-            label15.Name = "label15";
-            label15.Size = new Size(231, 27);
-            label15.TabIndex = 9;
-            label15.Text = "CADASTRE O CLIENTE";
             // 
             // textBoxEndCliente
             // 
@@ -804,16 +814,6 @@
             label22.Size = new Size(248, 27);
             label22.TabIndex = 13;
             label22.Text = "LANÇAMENTO DE NOTA";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Comic Sans MS", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label12.Location = new Point(551, 11);
-            label12.Name = "label12";
-            label12.Size = new Size(211, 27);
-            label12.TabIndex = 14;
-            label12.Text = "LISTA DE CLIENTES";
             // 
             // Mini_ERP
             // 
