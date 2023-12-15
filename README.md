@@ -23,4 +23,5 @@ Plus: gerar PDF da nota
 - ``.NET 7.0``
 - ``Windows Forms Applications``
 - ``C#``
+- ``DataBase First``
 - ``SQL Server``
